@@ -19,3 +19,7 @@ Purpose: Find the running time of any functions of the form void* <name>(void *)
 Arguements: Function pointer, argument to the function, number of repetitions.
 
 Return Value: A struct timespec gives the cumulative running time.
+
+
+Credit: The diff function in the program was initially taken from
+[here](http://www.guyrutenberg.com/2007/09/22/profiling-code-using-clock_gettime/)
